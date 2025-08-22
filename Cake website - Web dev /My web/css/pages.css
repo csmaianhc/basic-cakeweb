@@ -1,0 +1,387 @@
+/* LOGO on home page + Wellcome part texts */
+
+.Main-head-box{
+    background-color: white;
+}
+.Logo{ 
+    border: rgb(255, 172, 186) double 5px;
+    text-align: center; 
+    width: 300px;
+    height: 70px;
+    margin:auto;
+    padding: 0.5%;
+    font-family: fantasy;
+    font-size: 150%;
+    margin-top: 2%;
+}
+
+/* Contact info */
+
+.Main-info{
+    font-size:medium;
+    width: fit-content;
+    height: 70%;
+;
+}
+.Main-info  {
+    list-style: none;
+    margin-top: 2.5%;
+}
+.Main-info ol{
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 70%;
+    word-spacing: 150%;
+}
+
+/* Front part of  pages */
+
+.main-intro1 {
+    width: 100%;
+    height: calc(70vh - 80px);
+    background-color: #ffdee3;
+    margin-top: 20px;
+    background-image: url(../Images/Sugarmoo.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    border: rgb(255, 172, 186) solid 2px;
+}
+.main-intro3 {
+    width: 100%;
+    height: calc(70vh - 80px);
+    background-color: #ffdee3;
+    margin-top: 20px;
+    background-image: url(../Images/cover-image_60.jpg.avif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    border: rgb(255, 172, 186) solid 2px;
+
+}
+.main-intro4 {
+    width: 100%;
+    height: calc(73vh - 80px);
+    background-color: #ffdee3;
+    margin-top: 20px;
+    background-image: url(../Images/Floss-Hero-Celebration-Cakes-Banner-5.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    border: rgb(255, 172, 186) solid 2px;
+
+}
+.main-intro5 {
+    width: 100%;
+    height: calc(73vh - 80px);
+    background-color: #ffdee3;
+    margin-top: 20px;
+    background-image: url(../Images/md-bakery-1.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    border: rgb(255, 172, 186) solid 2px;
+
+}
+
+.main-intro6 {
+    width: 100%;
+    height: calc(70vh - 80px);
+    background-color: #ffdee3;
+    margin-top: 20px;
+    background-image: url(../Images/20230110_171304.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    border: rgb(255, 172, 186) solid 2px;
+
+}
+ 
+/* About page */
+
+main .content1 {
+    background-color: white;
+    margin-top: 8%;
+
+}
+main .content1 h1 {
+    font-size: 47px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3%;
+    text-decoration: underline;
+
+}
+main .content1 p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 1.5%;
+}
+
+
+/* Ingredients and Allergens page */
+
+main .content3 {
+    background-color: white;
+    margin-top: 8%;
+}
+
+main .content3 h1 {
+    font-size: 44px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+main .content3 .entry {
+    margin-left: 23%;
+    line-height: 35px;
+}
+
+main .content3 .update {
+    margin-left: 14%;
+    margin-top: 5%;
+}
+main .content3 .entry h3 {
+    font-size: 22px;
+    text-decoration: underline;
+}
+main .content3 .entry p {
+    font-size: 17px;
+}
+main .content3 .note h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 23%;
+    margin-top: 5%;
+    line-height: 40px;
+
+}
+
+
+
+/* Pocily */
+
+main .content4 {
+    background-color: white;
+    margin-top: 8%;
+}
+
+main .content4 h1 {
+    font-size: 47px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+main .content4 .entry {
+    margin-left: 23%;
+    line-height: 35px;
+}
+
+main .content4 .update {
+    margin-left: 14%;
+    margin-top: 5%;
+}
+main .content4 .entry h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+main .content4 .entry p {
+    font-size: 18px;
+}
+
+
+/* Shipping page */
+
+main .content5 {
+    background-color: white;
+    margin-top: 8%;
+}
+
+main .content5 h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+main .content5 .entry {
+    margin-left: 23%;
+    line-height: 35px;
+}
+
+main .content5 .entry h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+main .content5 .entry p {
+    font-size: 17.7px;
+}
+
+
+/* Vegan cake page */
+
+
+main .content6 {
+    background-color: white;
+    margin-top: 8%;
+}
+
+main .content6 h1 {
+    font-size: 46px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3%;
+    text-decoration: underline;
+}
+
+main .content6 p {
+    font-size: 20px;
+    line-height: 37px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer of all pages */
+
+/* More Cake pics */
+.Multi-pics-Cakes {
+    margin-top: 3%;
+    border: rgb(255, 172, 186) solid 2px;
+    display: flex;
+    column-gap: 0.46%;
+    align-items: center;
+    margin-top: 10%;
+}
+
+/* Email box */
+
+.Email-intro {
+    background: url(../Images/M047-1_1024x1024.jpg.webp);
+    background-size: cover;
+    padding: 100px 40px;
+    text-align: center;
+    color: black;
+    margin-top: 7%;
+    border: pink solid 2px;
+}
+
+.Email-intro h1{
+    text-transform: uppercase;
+    font-size: 27px;
+}
+.Email-intro p {
+    max-width: 600px;
+    margin: 40px auto;
+    font-weight: 300;
+    font-size: 17px;
+}
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.email-box i {
+    background: pink;
+    width: 60px;
+    line-height: 40px;
+    border: pink solid 2px;
+}
+.sub, .button {
+    border: none;
+}
+.sub{
+    width: 260px;
+    padding: 0 10px;
+    border: pink solid 2px;
+    transition: 0.6s;
+}
+.email-box:hover > .enter-info1, .enter-info1:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+.button {
+    background:pink;
+    color: black;
+    padding: 0 10px;
+    border: pink solid 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Footer part */ 
+
+footer { 
+    width: 100%;
+    height: calc(73vh - 60px);
+    background-color: #ffdee3;
+    margin-top: 20px;
+    background-image: url(../Images/Subject.png),url(../Images/il_1588xN.3747898750_p36a.jpg.webp); 
+    background-size: 50vh, cover;
+    background-repeat: no-repeat;
+    background-position: left, center; 
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    border: rgb(255, 172, 186) solid 2px;
+    margin-top: 10%;
+}
+
+footer .End h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 8%;
+    line-height: 70px;
+    text-align: center;
+    
+}
+footer .End  p {
+    font-size: 20px;
+    line-height: 23px;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+
+
+}
+footer .End {
+    position: relative;
+    left: -20vh;
+}
+
+
+
+
+    
+
+
+    
+

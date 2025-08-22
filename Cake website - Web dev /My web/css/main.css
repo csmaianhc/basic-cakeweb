@@ -1,0 +1,527 @@
+
+/* LOGO on home page + Wellcome part texts */
+
+.Main-head-box{
+    background-color: white;
+}
+.Logo{ 
+    border: rgb(255, 172, 186) double 5px;
+    text-align: center; 
+    width: 300px;
+    height: 70px;
+    margin:auto;
+    padding: 0.5%;
+    font-family: fantasy;
+    font-size: 150%;
+    margin-top: 2%;
+}
+.Main-info{
+    font-size:medium;
+    width: fit-content;
+    height: 70%;
+;
+}
+.Main-info  {
+    list-style: none;
+    margin-top: 2.5%;
+}
+.Main-info ol{
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 70%;
+    word-spacing: 150%;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+p{
+    font-size: 20px;
+    line-height: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-top: 4%;
+    text-align: center;
+}
+
+/* Wellcome home page (main frame) */
+
+main {
+    width: 100%;
+    height: calc(73vh - 60px);
+    background-color: #ffdee3;
+    margin-top: 20px;
+    background-image: url(../Images/Subject3.png),url(../Images/il_1588xN.3747898750_p36a.jpg.webp); 
+    background-size: 60vh, cover;
+    background-repeat: no-repeat;
+    background-position: right, center; 
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    border: rgb(255, 172, 186) solid 2px;
+}
+main .main-intro h3 {
+    font-size: 65px;
+    line-height: 90px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 5% ;
+    text-align: center;
+}
+main .main-intro p {
+    font-size: 21px;
+    line-height: 23px;
+    position: relative;
+    right: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+main .main-intro {
+    position: relative;
+    left: 28vh;
+}
+
+/* Price-of-K-trend-Cakes + price + img */
+
+.Boxes {
+    width: 100%;
+    padding: 60px 0;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    column-gap: 40px;
+    
+}
+.Box-1{
+    width: 290px;
+    height: 60px;
+    margin-top: -3%;
+    background-color: pink;
+    border: rgb(255, 165, 180) solid 1px;
+    background-image: url(../Images/il_1588xN.3747898750_p36a.jpg.jpg);
+    background-size: cover;
+    
+}
+.Box-1 h4{
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+.Img1 img {
+    width: 290px;
+    margin-left:-1%;
+    border-radius: 70px;
+    margin-top: 3%;
+}
+.Img1 p { /* Price for the K-trend cakes */
+    font-size: 17px;
+    margin-left: 35%;
+    margin-top: 1%;
+    font-family: cursive;
+}
+.Img2 img {
+    width: 290px;
+    margin-left:1%;
+    border-radius: 70px;
+}
+.Img2 p { /* Price for the K-trend cakes */
+    font-size: 17px;
+    margin-left: 35%;
+    margin-top: 1%;
+    font-family: cursive;
+
+}
+.Img3 img {
+    width: 290px;
+    margin-left:2%;
+    border-radius: 70px;
+}
+.Img3 p { /* Price for the K-trend cakes */
+    font-size: 17px;
+    margin-left: 35%;
+    margin-top: 1%;
+    font-family: cursive;
+
+}
+
+.Img4 img {
+    width: 290px;
+    margin-left:2%;
+    border-radius: 70px;
+}
+.Img4 p { /* Price for the K-trend cakes */
+    font-size: 17px;
+    margin-left: 35%;
+    margin-top: 1%;
+    font-family: cursive;
+}
+
+/* The Story of home page */
+
+.the-story{
+    width: 100%;
+    height: calc(85vh - 40px);
+    margin-top: 380px;
+    background-image: url(../Images/image.jpg),url(../Images/M047-1_1024x1024.jpg.webp); 
+    background-size: 90vh, cover;
+    background-repeat: no-repeat;
+    background-position: left , center; 
+    display: flex;
+    justify-content:right;
+    border: rgb(255, 172, 186) solid 2px;
+}
+
+.the-story h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-right: -25%;
+    margin-top: 3.5%;
+    text-decoration:underline;
+}
+.text {
+    font-size: 20px;
+    margin-top: 9%;
+    line-height: 23px;
+    position: relative;
+    right: 4vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+
+}
+ 
+/* Read more or Read less button */
+
+.more-text {
+    display: none;
+}
+.read-more-button {
+    padding: 8px 15px;
+    background-color: white;
+    color: black;
+    border: rgb(255, 172, 186) solid 2px;
+    outline: none;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.text.show-more .more-text {
+    display: inline;
+}
+.text.show-more.dots {
+    display: none;
+}
+
+/* Traditional cakes */
+
+.List-of-tradi-cakes {
+    width: 100%;
+    height: calc(95vh - 40px);
+    margin-top: 120px;
+    background-image: url(../Images/M047-1_1024x1024.jpg.webp); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center; 
+    display: flex;
+    justify-content:center;
+    border: rgb(255, 172, 186) solid 2px;
+    column-gap: 30px;
+
+}
+
+.Tradi-text h2{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-top: 8%;
+    text-align: center;
+    line-height: 20%;
+    word-spacing: 5px;
+    text-decoration:underline;
+}
+
+/* Gyongdan cake  */
+
+.Tradi-cake1 h2 {
+    font-size: 23.5px;
+    text-align: center;
+    margin-top: 33%;
+
+}
+.Tradi-cake1 img {
+    width: 290px;
+    margin-left:-1%;
+    border-radius: 70px;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.Tradi-cake1 p {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 5px;
+}
+
+/* Dasik cake  */
+
+.Tradi-cake2 h2 {
+    font-size:23.5px;
+    text-align: center;
+    margin-top: 10%;
+    
+
+}
+.Tradi-cake2 img {
+    width: 265px;
+    margin-left:-1%;
+    border-radius: 70px;
+    margin-top: 3%;
+    margin-left: 6%;
+    
+}
+.Tradi-cake2 p {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* Songpyeon cake  */
+
+.Tradi-cake3 h2 {
+    font-size: 23.5px;
+    text-align: center;
+    margin-top: 40%;
+
+}
+.Tradi-cake3 img {
+    width: 280px;
+    margin-left:-1%;
+    border-radius: 70px;
+    margin-top: 3%;
+    margin-left: -6%;
+    
+}
+.Tradi-cake3 p {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 25px;
+    
+}
+
+/* Bukkumi cake  */
+
+.Tradi-cake4 h2 {
+    font-size: 23.5px;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.Tradi-cake4 img {
+    width: 290px;
+    margin-left:-1%;
+    border-radius: 70px;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.Tradi-cake4 p {
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 11px;
+}
+
+/* Gyeongdan View guides */
+
+.More-info-1 {
+    width: 98px ;
+    height: 50px;
+    padding: -3px -5px;
+    background-color: white;
+    color: black;
+    border: rgb(255, 172, 186) solid 2px;
+    outline: none;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+.More-info-1  a p{
+    font-size: 15px;
+    margin-right: 1%;
+}
+
+/* Dasik View guides */
+
+.More-info-2 {
+    width: 98px ;
+    height: 50px;
+    padding: -3px -5px;
+    background-color: white;
+    color: black;
+    border: rgb(255, 172, 186) solid 2px;
+    outline: none;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+.More-info-2  a p{
+    font-size: 15px;
+    margin-right: 1%;
+}
+
+/* Songpyeon View guides */
+
+.More-info-3 {
+    width: 98px ;
+    height: 50px;
+    padding: -3px -5px;
+    background-color: white;
+    color: black;
+    border: rgb(255, 172, 186) solid 2px;
+    outline: none;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+.More-info-3  a p{
+    font-size: 15px;
+    margin-right: 1%;
+}
+
+/* Bukkumi View guides */
+
+.More-info-4 {
+    width: 98px ;
+    height: 50px;
+    padding: -3px -5px;
+    background-color: white;
+    color: black;
+    border: rgb(255, 172, 186) solid 2px;
+    outline: none;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+.More-info-4  a p{
+    font-size: 15px;
+    margin-right: 1%;
+}
+
+/* More Cake pics */
+.Multi-pics-Cakes {
+    margin-top: 3%;
+    border: rgb(255, 172, 186) solid 2px;
+    display: flex;
+    column-gap: 0.46%;
+    align-items: center;
+}
+
+/* Email box */
+
+.Email-intro {
+    background: url(../Images/M047-1_1024x1024.jpg.webp);
+    background-size: cover;
+    padding: 100px 40px;
+    text-align: center;
+    color: black;
+    margin-top: 7%;
+    border: pink solid 2px;
+}
+
+.Email-intro h1{
+    text-transform: uppercase;
+    font-size: 27px;
+}
+.Email-intro p {
+    max-width: 600px;
+    margin: 40px auto;
+    font-weight: 300;
+    font-size: 17px;
+}
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.email-box i {
+    background: pink;
+    width: 60px;
+    line-height: 40px;
+    border: pink solid 2px;
+}
+.sub, .button {
+    border: none;
+}
+.sub{
+    width: 260px;
+    padding: 0 10px;
+    border: pink solid 2px;
+    transition: 0.6s;
+}
+.email-box:hover > .enter-info1, .enter-info1:focus {
+    width: 260px;
+    padding: 0 10px;
+}
+.button {
+    background:pink;
+    color: black;
+    padding: 0 10px;
+    border: pink solid 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* Footer part */ 
+footer { 
+    width: 100%;
+    height: calc(73vh - 60px);
+    background-color: #ffdee3;
+    margin-top: 20px;
+    background-image: url(../Images/Subject.png),url(../Images/il_1588xN.3747898750_p36a.jpg.webp); 
+    background-size: 50vh, cover;
+    background-repeat: no-repeat;
+    background-position: left, center; 
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    border: rgb(255, 172, 186) solid 2px;
+    margin-top: 10%;
+}
+
+footer .End h1 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 8%;
+    line-height: 70px;
+    text-align: center;
+    
+}
+footer .End  p {
+    font-size: 20px;
+    line-height: 23px;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+
+
+}
+footer .End {
+    position: relative;
+    left: -20vh;
+}
+
+
+
+
